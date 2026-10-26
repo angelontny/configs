@@ -63,6 +63,6 @@ ln -sf "$(pwd)/nvim" ~/.config/nvim
 
 | Component | Status | Target Path | Documentation | Notes |
 |---|---|---|---|---|
-| **tmux** | Ready | `~/.config/tmux/tmux.conf` | [Tmux Guide](docs/tmux.md) | Modern keybinds, true-color, Catppuccin Mocha, nvim integration |
+| **tmux** | Ready | `~/.config/tmux/tmux.conf` | [Tmux Guide](docs/tmux.md) | Modern keybinds, true-color, Tokyo Night, nvim integration |
 | **neovim** | Ready | `~/.config/nvim/` | [Neovim Guide](docs/nvim.md) | Modular Lua config, lazy.nvim, LSP, Treesitter, Telescope |
 | **scripts** | Ready | `scripts/` | [Scripts Guide](docs/scripts.md) | Safe, non-destructive symlink automation |

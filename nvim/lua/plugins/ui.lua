@@ -5,14 +5,14 @@ return {
     lazy = true,
   },
 
-  -- Clean, fast Statusline matching Catppuccin theme
+  -- Clean, fast Statusline matching Tokyo Night theme
   {
     "nvim-lualine/lualine.nvim",
     event = "VeryLazy",
     dependencies = { "nvim-tree/nvim-web-devicons" },
     opts = {
       options = {
-        theme = "catppuccin",
+        theme = "tokyonight",
         globalstatus = true,
         component_separators = { left = "", right = "" },
         section_separators = { left = "", right = "" },

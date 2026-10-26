@@ -6,7 +6,7 @@ Documentation for the tmux configuration located at [`tmux/tmux.conf`](../tmux/t
 
 ## 📋 Overview
 
-The tmux configuration is designed for modern terminal workflows, high ergonomics, seamless editor integration with Neovim, and a clean Catppuccin Mocha aesthetic.
+The tmux configuration is designed for modern terminal workflows, high ergonomics, seamless editor integration with Neovim, and a clean Tokyo Night aesthetic.
 
 ### Configuration Path
 
@@ -131,17 +131,17 @@ Copy mode is configured with Vim keybindings:
 
 ---
 
-### 5. Catppuccin Mocha Styling
+### 5. Tokyo Night Styling
 
-The UI is customized with a cohesive, minimalist dark theme:
+The UI is customized with a cohesive Tokyo Night palette:
 
 | Element | Color Hex | Description |
 |---|---|---|
-| **Status Bar Background** | `#1e1e2e` | Catppuccin Base |
-| **Status Bar Foreground** | `#cdd6f4` | Catppuccin Text |
-| **Active Session Badge** | `#89b4fa` (Blue) | Bold highlight on status-left |
-| **Active Window Tab** | `#45475a` (Surface1) | White bold text with asterisk indicator |
-| **Inactive Window Tab** | `#1e1e2e` / `#6c7086` | Dimmed overlay |
-| **Active Pane Border** | `#89b4fa` (Blue) | Highlighted active pane border |
-| **Inactive Pane Border** | `#313244` (Surface0) | Subtle, non-distracting split lines |
-| **Right Status Info** | `#313244` / `#a6e3a1` | Formatted `YYYY-MM-DD │ HH:MM` and Hostname |
+| **Status Bar Background** | `#1a1b26` | Tokyo Night Night Background |
+| **Status Bar Foreground** | `#c0caf5` | Tokyo Night Foreground Text |
+| **Active Session Badge** | `#7aa2f7` (Blue) / `#15161e` | Bold blue accent on status-left |
+| **Active Window Tab** | `#292e42` / `#7dcfff` (Cyan) | Cyan bold text with asterisk indicator on highlight bg |
+| **Inactive Window Tab** | `#1a1b26` / `#565f89` | Dimmed muted comment text |
+| **Active Pane Border** | `#7aa2f7` (Blue) | Highlighted active pane border |
+| **Inactive Pane Border** | `#292e42` | Subtle, non-distracting split lines |
+| **Right Status Info** | `#24283b` / `#9ece6a` (Green) | Formatted `YYYY-MM-DD │ HH:MM` and Hostname |

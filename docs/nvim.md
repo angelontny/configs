@@ -19,7 +19,7 @@ nvim/
     │   ├── autocmds.lua       # Auto-commands (highlight on yank, split resizing, cursor restore)
     │   └── lazy.lua           # Bootstraps lazy.nvim and imports plugin specifications
     └── plugins/
-        ├── colorscheme.lua    # Catppuccin Mocha theme (cohesive with tmux)
+        ├── colorscheme.lua    # Tokyo Night theme (cohesive with tmux)
         ├── ui.lua             # Lualine statusline, devicons, which-key, and dressing.nvim
         ├── treesitter.lua     # AST syntax highlighting, incremental selection, and indentation
         ├── telescope.lua      # Telescope fuzzy finder (files, grep, buffers, config)
@@ -35,10 +35,10 @@ nvim/
 
 ## 🎨 Theme & Appearance
 
-- **Colorscheme**: **Catppuccin Mocha**
-  - Perfectly matches the Catppuccin palette used in `tmux/tmux.conf` (`#1e1e2e` base, `#89b4fa` blue, `#a6e3a1` green).
+- **Colorscheme**: **Tokyo Night (`tokyonight-night`)**
+  - Perfectly matches the Tokyo Night palette used in `tmux/tmux.conf` (`#1a1b26` bg, `#7aa2f7` blue, `#9ece6a` green, `#7dcfff` cyan).
   - Integrates natively with Treesitter, Telescope, GitSigns, NvimTree, and LSP diagnostics.
-- **Statusline**: `lualine.nvim` with Catppuccin theme displaying git branch, diffs, LSP diagnostics, relative file path, and line position.
+- **Statusline**: `lualine.nvim` with `tokyonight` theme displaying git branch, diffs, LSP diagnostics, relative file path, and line position.
 
 ---
 
