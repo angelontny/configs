@@ -43,4 +43,14 @@ if [ -d "${DOTFILES_DIR}/nvim" ]; then
     link_item "${DOTFILES_DIR}/nvim" "${CONFIG_DIR}/nvim"
 fi
 
+# 3. mpv
+if [ -d "${DOTFILES_DIR}/mpv" ]; then
+    link_item "${DOTFILES_DIR}/mpv" "${CONFIG_DIR}/mpv"
+fi
+
+# 4. user scripts
+if [ -f "${DOTFILES_DIR}/scripts/mpv-move-file.sh" ]; then
+    link_item "${DOTFILES_DIR}/scripts/mpv-move-file.sh" "${HOME}/.local/bin/mpv-move-file.sh"
+fi
+
 echo "==> Symlinking complete!"
